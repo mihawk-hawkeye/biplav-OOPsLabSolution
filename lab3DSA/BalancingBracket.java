@@ -13,8 +13,8 @@ public class BalancingBracket {
 		str =sc.next();
 		System.out.println("string provided: "+ str);
 		
-		System.out.println(checkIfBracketBal(str));
-
+		//System.out.println(checkIfBracketBal(str));
+System.out.println( checkIfBracketBal(str)?"The entered String has Balanced Brackets":"The entered Strings do not contain Balanced Brackets" );
 	}
 
 	private static boolean checkIfBracketBal(String str) {
